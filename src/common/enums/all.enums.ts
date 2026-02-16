@@ -1,0 +1,32 @@
+
+export enum UserRole {
+    MERCHANT = 'MERCHANT',
+    RIDER = 'RIDER',
+    ADMIN = 'ADMIN',
+}
+
+export enum AccountStatus {
+    PENDING = 'PENDING',
+    ACTIVE = 'ACTIVE',
+    SUSPENDED = 'SUSPENDED',
+    BLOCKED = 'BLOCKED',
+}
+
+export enum SubStatus {
+    AWAITING_PAYMENT = 'AWAITING_PAYMENT',
+    UNDER_ANALYSIS = 'UNDER_ANALYSIS',
+    ACTIVE = 'ACTIVE',
+    REJECTED = 'REJECTED',
+}
+
+export enum OrderStatus {
+    PENDING = 'PENDING',
+    PREPARING = 'PREPARING',
+    READY = 'READY',
+    PICKING_UP = 'PICKING_UP',
+    DELIVERING = 'DELIVERING',
+    WAITING_CONFIRMATION = 'WAITING_CONFIRMATION',
+    DELIVERED = 'DELIVERED',
+    CANCELLED = 'CANCELLED',
+    RETURNING = 'RETURNING',
+}
